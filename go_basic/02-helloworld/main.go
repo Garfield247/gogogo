@@ -1,11 +1,13 @@
-// Package main provides ...
+// 声明包
 package main
 
+// 导入fmt包
 import (
 	"fmt"
 )
 
+// main函数
 func main() {
-	str := "Hello world!"
-	fmt.Println(str)
+	// 打印 hello world
+	fmt.Println("Hello world!")
 }
