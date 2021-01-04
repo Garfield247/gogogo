@@ -1,5 +1,6 @@
 package main
 
+//单变量声明
 import "fmt"
 
 func main() {
@@ -9,8 +10,16 @@ func main() {
 	var num1 int
 	var str1 string
 	//0未赋值将使用默认值
-	fmt.Println(num1, "|", str1) //0| |0
+	fmt.Println(num1, "|", str1) //0 |
 	var num2 int = 10
 	var str2 string = "字符串"
-	fmt.Println(num2, "|", str2) //0| |0
+	fmt.Println(num2, "|", str2) //10 | 字符串
+	// 2. 根据值自行判断数据类型
+	var num3 = 10
+	var str3 = "str3"
+	fmt.Println(num3, "|", str3) // 10 | str3
+	// 3. 省略var !这种方式只能被用在函数体内不能用于全局变量的声明与赋值
+	num4 := 4
+	str4 := "str4"
+	fmt.Println(num4, "|", str4) // 4 | str4
 }
