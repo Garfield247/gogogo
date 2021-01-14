@@ -8,6 +8,13 @@ func main() {
 	var num1, num2, num3 int
 	num1, num2, num3 = 1, 2, 3
 	fmt.Println(num1, num2, num3)
+	// 同时声明类型
+	var (
+		a1 int
+		b1 string
+		c1 bool
+	)
+	fmt.Println(a1, b1, c1)
 	// 2. 直接赋值,变量的类型可以是不同类型
 	var str1, num4, bol1 = "str1", 4, false
 	fmt.Println(str1, num4, bol1)

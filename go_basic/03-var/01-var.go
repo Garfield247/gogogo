@@ -18,6 +18,9 @@ func main() {
 	var num3 = 10
 	var str3 = "str3"
 	fmt.Println(num3, "|", str3) // 10 | str3
+	//类型推导
+	fmt.Printf("num3-type:%T-value:%d\n", num3, num3)
+	fmt.Printf("str3-type:%T-value:%s\n", str3, str3)
 	// 3. 省略var !这种方式只能被用在函数体内不能用于全局变量的声明与赋值
 	num4 := 4
 	str4 := "str4"
