@@ -10,6 +10,7 @@ import (
 
 func main() {
 	utils.Count()
+	utils.Test()
 	tu.EchoTime()
 
 	p1 := person.Person{Name: "小明", Sex: "nan"}
